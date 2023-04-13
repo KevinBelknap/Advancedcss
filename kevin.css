@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    border: 1px solid blue;
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+header h1 {
+    border: 1px solid salmon;
+    width: 500px;
+}
+
+
+nav {
+    border: 1px solid salmon;
+    width: 500px;
+}
+
+
+main {
+    border: 1px solid green;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+#about_me {
+    border: 1px solid green;
+    width: 50%;
+}
+
+#project {
+    border: 1px solid green;
+    width: 50%;
+}
+
+
+footer {
+    border: 1px solid purple;
+    flex-basis: 200px;
+
+}
