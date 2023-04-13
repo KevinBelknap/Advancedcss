@@ -18,6 +18,11 @@ header h1 {
     width: 500px;
 }
 
+element.style {
+        width: 15%;
+        height: 100%;
+    }
+
 
 nav {
     border: 1px solid salmon;
@@ -37,11 +42,16 @@ main {
     width: 50%;
 }
 
-#project {
+#projects {
     border: 1px solid green;
     width: 50%;
 }
 
+#Contact {
+    border: 1px solid green;
+    flex-basis: 500px;
+    
+}
 
 footer {
     border: 1px solid purple;
